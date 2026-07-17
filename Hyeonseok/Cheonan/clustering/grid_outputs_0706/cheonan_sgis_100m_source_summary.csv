@@ -1,0 +1,5 @@
+﻿source_id,file_name,encoding,status,rows,valid_coordinate_rows,matched_grid_rows,unmatched_grid_rows,facility_rows,unique_addresses,geocoded_ok_addresses,geocoded_facility_rows
+commerce,commerce_cheonan_202603.csv,utf-8-sig,processed,36185.0,36185.0,36178,7,,,,
+hospital,hospital_cheonan_202603.csv,utf-8-sig,processed,855.0,855.0,855,0,,,,
+pharmacy,pharmacy_cheonan_202603.csv,utf-8-sig,processed,312.0,312.0,312,0,,,,
+address_sources,,,processed,,,1205,7,1212.0,993.0,987.0,1206.0

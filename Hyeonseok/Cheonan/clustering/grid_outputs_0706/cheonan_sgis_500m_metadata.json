@@ -1,0 +1,79 @@
+{
+  "grid_basis": "SGIS official 500m grid (500M)",
+  "population_method": "2026-05-31 administrative-dong totals allocated by 2024 SGIS 500m grid population ratios within each administrative dong",
+  "grid_rows": 2552,
+  "final_shape": [
+    2552,
+    207
+  ],
+  "population_2026_total_int": 665858,
+  "population_2026_total_float": 665857.9999999999,
+  "population_2024_grid_sum": 694440.0,
+  "source_summary": [
+    {
+      "source_id": "commerce",
+      "file_name": "commerce_cheonan_202603.csv",
+      "encoding": "utf-8-sig",
+      "status": "processed",
+      "rows": 36185.0,
+      "valid_coordinate_rows": 36185.0,
+      "matched_grid_rows": 36106,
+      "unmatched_grid_rows": 79,
+      "facility_rows": NaN,
+      "unique_addresses": NaN,
+      "geocoded_ok_addresses": NaN,
+      "geocoded_facility_rows": NaN
+    },
+    {
+      "source_id": "hospital",
+      "file_name": "hospital_cheonan_202603.csv",
+      "encoding": "utf-8-sig",
+      "status": "processed",
+      "rows": 855.0,
+      "valid_coordinate_rows": 855.0,
+      "matched_grid_rows": 853,
+      "unmatched_grid_rows": 2,
+      "facility_rows": NaN,
+      "unique_addresses": NaN,
+      "geocoded_ok_addresses": NaN,
+      "geocoded_facility_rows": NaN
+    },
+    {
+      "source_id": "pharmacy",
+      "file_name": "pharmacy_cheonan_202603.csv",
+      "encoding": "utf-8-sig",
+      "status": "processed",
+      "rows": 312.0,
+      "valid_coordinate_rows": 312.0,
+      "matched_grid_rows": 311,
+      "unmatched_grid_rows": 1,
+      "facility_rows": NaN,
+      "unique_addresses": NaN,
+      "geocoded_ok_addresses": NaN,
+      "geocoded_facility_rows": NaN
+    },
+    {
+      "source_id": "address_sources",
+      "file_name": NaN,
+      "encoding": NaN,
+      "status": "processed",
+      "rows": NaN,
+      "valid_coordinate_rows": NaN,
+      "matched_grid_rows": 1200,
+      "unmatched_grid_rows": 12,
+      "facility_rows": 1212.0,
+      "unique_addresses": 993.0,
+      "geocoded_ok_addresses": 987.0,
+      "geocoded_facility_rows": 1206.0
+    }
+  ],
+  "outputs": {
+    "grid_csv": "C:\\Users\\jin57\\Documents\\Codex\\2026-06-23\\m\\outputs\\cheonan_sgis_500m_grid_cells_center_in.csv",
+    "population_adm_summary_csv": "C:\\Users\\jin57\\Documents\\Codex\\2026-06-23\\m\\outputs\\cheonan_sgis_500m_population_by_adm_summary.csv",
+    "coordinate_assignments_csv": "C:\\Users\\jin57\\Documents\\Codex\\2026-06-23\\m\\outputs\\cheonan_sgis_500m_coordinate_point_assignments.csv",
+    "address_assignments_csv": "C:\\Users\\jin57\\Documents\\Codex\\2026-06-23\\m\\outputs\\cheonan_sgis_500m_address_point_assignments.csv",
+    "source_summary_csv": "C:\\Users\\jin57\\Documents\\Codex\\2026-06-23\\m\\outputs\\cheonan_sgis_500m_source_summary.csv",
+    "final_csv": "C:\\Users\\jin57\\Documents\\Codex\\2026-06-23\\m\\outputs\\cheonan_sgis_500m_final_features_with_population.csv",
+    "metadata_json": "C:\\Users\\jin57\\Documents\\Codex\\2026-06-23\\m\\outputs\\cheonan_sgis_500m_metadata.json"
+  }
+}
